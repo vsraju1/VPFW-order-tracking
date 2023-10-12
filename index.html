@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VPFW-Order tracking</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <h1 id="heading">VPFW</h1>
+      <div class="details-container">
+        <div class="order-container">
+          <div class="order-heading">
+            <h1>You can track your order here</h1>
+          </div>
+          <div class="order-search" id="order-search">
+            <input
+              type="number"
+              placeholder="Enter your order ID"
+              maxlength="4"
+              id="orderid"
+            />
+            <button id="btn">Search</button>
+          </div>
+        </div>
+        <div class="order-result-container">
+        <div class="order-stages">
+          <!-- <h2>Phase 1: order received material yet to purchase</h2>
+          <h2>Phase 2: material received</h2>
+          <h2>Phase 3: Work has started</h2>
+          <h2>Phase 4: sent to paint</h2>
+          <h2>Phase 5: Ready to deiliver</h2>
+        </div> -->
+        <div class="order-result">
+          <p>Your work id number: 19292923</p>
+          <p>Status: phase 3</p>
+          <p>Comments: Your work has been startes it may take 2 days more</p>
+        </div>
+      </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
