@@ -36,6 +36,7 @@
     align-items: center;
     border-radius: 5px;
     box-shadow: 0px 0px 10px 2px;
+    /* background: url(./images/order-received.png); */
 }
 .order-heading{
     font-size: 22px;
